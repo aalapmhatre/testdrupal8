@@ -8,20 +8,20 @@
  * See COPYRIGHT.txt and LICENSE.txt files in the "core" directory.
  */
 
+/**
+* use Drupal\Core\DrupalKernel;
+* use Symfony\Component\HttpFoundation\Request;
 
-use Drupal\Core\DrupalKernel;
-use Symfony\Component\HttpFoundation\Request;
+* $autoloader = require_once 'autoload.php';
 
-$autoloader = require_once 'autoload.php';
+* $kernel = new DrupalKernel('prod', $autoloader);
 
-$kernel = new DrupalKernel('prod', $autoloader);
+* $request = Request::createFromGlobals();
+* $response = $kernel->handle($request);
+* $response->send();
 
-$request = Request::createFromGlobals();
-$response = $kernel->handle($request);
-$response->send();
-
-$kernel->terminate($request, $response);
-
+* $kernel->terminate($request, $response);
+*/
 echo "hello aalap 1234";
 ?>
 <html>
