@@ -24,3 +24,8 @@
 */
 echo "hello aalap";
 ?>
+<html>
+  <p> Good morning ! How are you? </p>
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+</html>
