@@ -22,7 +22,7 @@
 
 * $kernel->terminate($request, $response);
 */
-echo "hello aalap 1234";
+echo "hello UCB";
 ?>
 <html>
   <p> Good morning ! How are you? </p>
